@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Roboto-Regular ;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Abril-Fatface;
+    src: url(fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto-Regular;
+    text-align: center;
+}
+
+h1 , h2 , h3 {
+    font-family: Abril-Fatface;
+}
+
+
+.navBar {
+    display: inline-block;
+    font-family: Roboto-Bold;
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;   
+}
+
+.navBar_container {
+    display: inline-flexbox;
+    width: 100%;
+}
+
+.nav_item {
+    margin: 50px;
+    text-decoration: none;
+    color: black;  
+}
+
+.title_container {
+    font-family: Abril-Fatface;
+    font-size: 42px;
+    
+}
+
+.joPress_title {
+    text-decoration: none;
+    color: black;
+}
+
+.title_article {
+    position: relative;
+    top: 100px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+
+}
+
+.title_article_page {
+    font-size: 30px;
+    text-align: left;
+    margin: 30px;
+}
+
+.img_article {
+    width: 700px;
+    height: 700px;
+    border-radius: 10%;
+}
+
+.article {
+    padding: 40px;
+    font-size: 20px;
+    width: 60%;
+}
+
+.section_title {
+    width: 60%;
+}
+
+.img_container_article {
+    display: inline-block;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    
+}
+
+.img_container_article2 {
+    display: inline-block;
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+}
+
+.img_article_inside {
+    width: 400px;
+    border-radius: 100%;
+}
+
+.wh_img {
+    width: 400px;
+    border-radius: 10%;
+}
+
+.wh_img_2 {
+    border-radius: 100%;
+    width: 400px;
+}
+
+.wh_pitch {
+    padding: 100px 400px 100px 400px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.form {
+    font-family: Roboto_Bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input_form {
+    margin: 30px;
+}
+
+.textarea {
+    margin: 30px;
+    border: solid 3px black;
+    border-radius: 20%;
+}
